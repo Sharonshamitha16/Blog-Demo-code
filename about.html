@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+     body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-nav {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.container {
+    margin-top: 60px; /* Adjust based on the height of your top-nav */
+    position: relative;
+}
+
+.inner-nav {
+    width: 100%;
+    background: #444;
+    color: #fff;
+    padding: 10px 20px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 60px; /* Adjust based on the height of your top-nav */
+    z-index: 5;
+}
+
+.banner-image {
+    width: 100%;
+    display: block;
+}
+
+</style>
+<body>
+    <div class="top-nav">
+        <!-- Top Navigation Bar Content -->
+    </div>
+    <div class="container">
+        <div class="inner-nav">
+            <!-- Inner Navigation Bar Content -->
+        </div>
+        <img src="/assets/banner.jpeg" alt="Banner Image" class="banner-image">
+    </div>
+</body>
+</html>
