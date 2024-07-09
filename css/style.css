@@ -15,6 +15,7 @@ header {
 .navbar {
   background-color: rgb(235, 232, 228);
   padding: 5px;
+  align-items: center;
 }
 
 .hamburger-icon {
@@ -43,11 +44,16 @@ header {
 h4 {
   opacity: 0.4;
   margin: 0;
-  padding: 10px;
+  padding: 2px;
+  margin-bottom: 0;
 }
 h2{
-    margin:0 ;
+    /* margin:0 ; */
+    margin-bottom: 0;;
     padding: auto;
+}
+h2 #tophead{
+  
 }
 main {
   padding: 70px;
@@ -59,6 +65,9 @@ main {
   border-radius: 18px;
   height: 80vh;
  
+}
+.navdiv{
+  align-self: auto;
 }
 .navbar-info {
   width: 78vw;
