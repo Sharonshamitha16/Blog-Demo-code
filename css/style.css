@@ -100,8 +100,8 @@ ul .navbar-info{
 }
 ul li {
   padding: 15px;
-  margin: 10px;
-  float: right;
+  justify-content: center;
+ 
 }
 li a {
   text-decoration: none;
@@ -118,6 +118,7 @@ ul {
     height: 50px;
     width: 75px;
     margin: 0px;
+    border-radius: 2px solid #fff;
   }
 button {
   background-color: #83c5be;
@@ -129,7 +130,7 @@ button {
   border: 1px solid #8ac9e2e0;
   box-shadow: 2px 2px;
   cursor: pointer;
-  margin-left: 22px;
+  
 }
 .btn {
   text-align: center;
@@ -139,7 +140,7 @@ button {
   /* align-items: center; */
   margin-top: -1.7%;
   padding-right: 90%;
-  margin-left: -15%;
+  margin-left: -19%;
 }
 
 
