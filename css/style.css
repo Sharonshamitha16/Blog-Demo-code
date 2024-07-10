@@ -114,12 +114,10 @@ ul {
 .navdiv{
     position: relative;
 }
-#logo {
-    height: 50px;
-    width: 75px;
-    margin: 0px;
-    border-radius: 2px solid #fff;
-  }
+
+   #logo{
+    border-radius: 30px;
+   }
 button {
   background-color: #83c5be;
   font-size: 18px;
@@ -140,7 +138,7 @@ button {
   /* align-items: center; */
   margin-top: -1.7%;
   padding-right: 90%;
-  margin-left: -19%;
+  margin-left: -12%;
 }
 
 
